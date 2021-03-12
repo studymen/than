@@ -1,0 +1,16 @@
+/**index.wxss**/
+.box{
+  margin:15px;
+}
+view{
+  margin-bottom: 20px;
+}
+.itn{
+border-bottom: 2px solid grey;
+}
+.than{
+  color: white;
+  margin-bottom:20px;
+  background-color:#35f;
+  border-radius: 5px;
+}

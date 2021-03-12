@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class=" box">
+  <view>
+    <text>请输入第1个数字：</text>
+    <input type="number" class="itn" bindinput="num1change"/>
+  </view>
+  <view>
+    <text>请输入第2个数字：</text>
+    <input type="number" class="itn" bindinput="num2change"/>
+  </view>
+  <view class="than">
+  <button class="than"  bindchange="compare">比较</button>
+</view>
+  <view>
+    <text>比较结果：{{result}}</text>
+  </view>
+</view>
